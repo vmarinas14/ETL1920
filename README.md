@@ -38,5 +38,30 @@ En este caso proponemos esta herramienta como el sistema de gestión de tareas y
 5. Aplicar un commit
 6. Hacer un pull request sobre la rama principal
 
+### Instalar git
+Podemos trabajar desde consola
+https://www.atlassian.com/es/git/tutorials/install-git
+ o con un framework interactivo como 
+https://git-scm.com/
+
+### Realizar fork
+Os clonaís mi repositorio en vuestro sistema, debería apareceros una carpeta con el mismo nombre
+git clone https://github.com/gvalverd/ETL1920.git
+
+### Creamos una nueva rama de desarrollo
+git checkout -b practica_1
+
+### Realizamos un código
+Editamos un fichero, por ejemplo generamos el fichero practica_nba.ipynb
+
+### Aplicamos un commit
+Añadimos la metainformación sobre el cambio realizado a mis metadatos de cambios haciendo un commit.
+git commit -a -m "Añadido el primer documento de la práctica 1"
+
+### Subis vuestro código a vuestro github en la rama correspondiente
+git push origin practica_1
+
+### Pull-request
+Una vez subido a github, haceís un pull-request (desde el navegador) y me llega un aviso de que quereís incoporarlo para que yo lo vea y os pueda enviar correcciones.
 
 https://www.atlassian.com/es/git/tutorials/making-a-pull-request

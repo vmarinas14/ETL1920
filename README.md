@@ -65,3 +65,4 @@ git push origin practica_1
 Una vez subido a github, haceís un pull-request (desde el navegador) y me llega un aviso de que quereís incoporarlo para que yo lo vea y os pueda enviar correcciones.
 
 https://www.atlassian.com/es/git/tutorials/making-a-pull-request
+https://github.com/omegaup/omegaup/wiki/C%C3%B3mo-Hacer-un-Pull-Request
